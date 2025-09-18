@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
-    selector: 'rto-slide-two',
-    templateUrl: './slide-two.component.html'
+    selector: 'rto-slide-eighteen',
+    templateUrl: './slide-eighteen.component.html'
 })
-export class SlideTwoComponent {}
+export class SlideEighteenComponent {}

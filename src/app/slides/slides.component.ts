@@ -90,7 +90,7 @@ export class SlidesComponent implements OnDestroy, OnInit {
     }
 
     private _goToNextSlide(): void {
-        if (this._index < 26) {
+        if (this._index < 23) {
             this._router.navigate([`${this._index + 1}`], { relativeTo: this._activatedRoute });
         }
     }
@@ -110,7 +110,7 @@ export class SlidesComponent implements OnDestroy, OnInit {
 
             this._index = newIndex;
 
-            if (this._isPreferingReducedMotion || (direction === 'forwards')) {
+            if (this._isPreferingReducedMotion || direction === 'forwards') {
                 this.transition = { params: NO_TRANSITION_PARAMS, value: newIndex };
             } else {
                 const nativeWindow = this._windowService.nativeWindow;

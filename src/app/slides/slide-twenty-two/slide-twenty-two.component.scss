@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+}
+
+td,
+th {
+    font-size: 50%;
+}
+
+th {
+    font-weight: 500;
+}
+
+td:first-of-type {
+    text-align: left;
+}
+
+td:nth-of-type(2),
+td:nth-of-type(3),
+th:nth-of-type(2),
+th:nth-of-type(3) {
+    padding: 0 0 0 1em;
+    text-align: right;
+}

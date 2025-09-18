@@ -59,7 +59,7 @@
                         "ssr": {
                             "entry": "src/server.ts"
                         },
-                        "styles": ["prismjs/themes/prism-okaidia.css", "src/styles/styles.scss"],
+                        "styles": ["src/styles/styles.scss"],
                         "tsConfig": "src/tsconfig.json"
                     }
                 },
